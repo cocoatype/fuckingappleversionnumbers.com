@@ -1,0 +1,142 @@
+{
+  "versions": [
+    {
+      "year": "2024",
+      "iOS": "18",
+      "iPadOS": "18",
+      "macOS": {
+        "number": "macOS 15",
+        "codename": "Sequoia"
+      },
+      "tvOS": "18",
+      "visionOS": "2",
+      "watchOS": "11",
+      "Xcode": "16",
+      "iPhone": "TBA"
+    },
+    {
+      "year": "2023",
+      "iOS": "17",
+      "iPadOS": "17",
+      "macOS": {
+        "number": "macOS 14",
+        "codename": "Sonoma"
+      },
+      "tvOS": "17",
+      "visionOS": "1",
+      "watchOS": "10",
+      "Xcode": "15",
+      "iPhone": "15"
+    },
+    {
+      "year": "2022",
+      "iOS": "16",
+      "iPadOS": "16",
+      "macOS": {
+        "number": "macOS 13",
+        "codename": "Ventura"
+      },
+      "tvOS": "16",
+      "watchOS": "9",
+      "Xcode": "14",
+      "iPhone": "14"
+    },
+    {
+      "year": "2021",
+      "iOS": "15",
+      "iPadOS": "15",
+      "macOS": {
+        "number": "macOS 12",
+        "codename": "Monterey"
+      },
+      "tvOS": "15",
+      "watchOS": "8",
+      "Xcode": "13",
+      "iPhone": "13"
+    },
+    {
+      "year": "2020",
+      "iOS": "14",
+      "iPadOS": "14",
+      "macOS": {
+        "number": "macOS 11",
+        "codename": "Big Sur"
+      },
+      "tvOS": "14",
+      "watchOS": "7",
+      "Xcode": "12",
+      "iPhone": "12"
+    },
+    {
+      "year": "2019",
+      "iOS": "13",
+      "iPadOS": "13",
+      "macOS": {
+        "number": "macOS 10.15",
+        "codename": "Catalina"
+      },
+      "tvOS": "13",
+      "watchOS": "6",
+      "Xcode": "11",
+      "iPhone": "11"
+    },
+    {
+      "year": "2018",
+      "iOS": "12",
+      "macOS": {
+        "number": "macOS 10.14",
+        "codename": "Mojave"
+      },
+      "tvOS": "12",
+      "watchOS": "5",
+      "Xcode": "10",
+      "iPhone": "XR & XS"
+    },
+    {
+      "year": "2017",
+      "iOS": "11",
+      "macOS": {
+        "number": "macOS 10.13",
+        "codename": "High Sierra"
+      },
+      "tvOS": "11",
+      "watchOS": "4",
+      "Xcode": "9",
+      "iPhone": "8 & X"
+    },
+    {
+      "year": "2016",
+      "iOS": "10",
+      "macOS": {
+        "number": "macOS 10.12",
+        "codename": "Sierra"
+      },
+      "tvOS": "10",
+      "watchOS": "3",
+      "Xcode": "8",
+      "iPhone": "7"
+    },
+    {
+      "year": "2015",
+      "iOS": "9",
+      "macOS": {
+        "number": "OS X 10.11",
+        "codename": "El Capitan"
+      },
+      "tvOS": "9",
+      "watchOS": "2",
+      "Xcode": "7",
+      "iPhone": "6s"
+    },
+    {
+      "year": "2014",
+      "iOS": "8",
+      "macOS": {
+        "number": "OS X 10.10",
+        "codename": "Yosemite"
+      },
+      "Xcode": "6",
+      "iPhone": "6"
+    }
+  ]
+}

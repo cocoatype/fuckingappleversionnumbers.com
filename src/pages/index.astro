@@ -1,16 +1,43 @@
 ---
-
+import '../assets/main.scss';
+import data from '../versions.json';
+import VersionRow from '../components/VersionRow.astro';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+    <head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator} />
+	<title>Fucking Apple Version Numbers</title>
+    </head>
+    <body>
+        <header>
+            <h1>Apple&apos;s Various Version Numbers</h1>
+        </header>
+        <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>iOS</th>
+                    <th>iPadOS</th>
+                    <th>macOS</th>
+                    <th>tvOS</th>
+                    <th>visionOS</th>
+                    <th>watchOS</th>
+                    <th>Xcode</th>
+                    <th>iPhone</th>
+                </tr>
+            </thead>
+            <tbody>
+                {data.versions.map((version) => <VersionRow version={version} />)}
+            </tbody>
+        </table>
+        </main>
+        <footer>
+            <p>Brought to you by <a href="https://cocoatype.com">Cocoatype</a>.
+        </footer>
+    </body>
 </html>

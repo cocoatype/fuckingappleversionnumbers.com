@@ -1,0 +1,16 @@
+---
+const { version } = Astro.props;
+console.log(Astro.props);
+---
+
+<tr>
+    <th scope="row">{version.year}</td>
+    <td>{version.iOS}</td>
+    <td>{version.iPadOS}</td>
+    <td>{version.macOS.number}<br/>&ldquo;{version.macOS.codename}&rdquo;</td>
+    <td>{version.tvOS}</td>
+    <td>{version.visionOS}</td>
+    <td>{version.watchOS}</td>
+    <td>{version.Xcode}</td>
+    <td>{version.iPhone}</td>
+</tr>

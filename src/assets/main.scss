@@ -75,3 +75,23 @@ footer {
     margin-top: 1em;
     text-align: center;
 }
+
+@media screen and (max-width:720px) {
+    thead {
+        tr {
+            th {
+                writing-mode: vertical-rl;
+                text-orientation: sideways-right;
+                vertical-align: top;
+            }
+        }
+    }
+
+    tbody {
+        th,
+        td {
+            padding: 0.5em 0.2em;
+            font-size: 14px;
+        }
+    }
+}

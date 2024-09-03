@@ -7,26 +7,35 @@ $table-row-hover: rgba(#3C3C43, 0.08);
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: $body-background;
   display: flex;
   flex-direction: column;
-  background: $body-background;
   align-items: center;
+  // width: 100dvw;
+  box-sizing: border-box;
+  // margin: 0.5rem;
+}
+
+header {
+    position: sticky;
+    left: 0;
+    text-align: center;
 }
 
 main {
+    max-width: 100%;
+    overflow: scroll;
+    max-height: 60dvh;
     border-radius: 16px;
     background: $card-background;
     box-shadow: 0px 2px 16px $card-shadow;
-    // padding: 1em;
-}
-
-h1 {
-    text-align: center;
 }
 
 table {
     border-collapse: collapse;
     text-align: left;
+    table-layout: fixed;
+    white-space: nowrap;
 }
 
 thead {
@@ -34,7 +43,15 @@ thead {
     color: $table-header-text;
 
     th {
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 2;
+
         &:first-child {
+            position: sticky;
+            left: 0;
+            z-index: 3;
             border-top-left-radius: 8px;
         }
 
@@ -48,10 +65,19 @@ th, td {
 //    border-bottom: 1px solid black;
     padding: 0.5em 1em;
     min-width: 3em;
+    background: white;
+
+    &:first-child {
+        position: sticky;
+        left: 0;
+    }
 }
 
 tbody {
     tr {
+        td, th {
+        }
+
         &:hover {
             background: $table-row-hover;
             border-radius: 8px;

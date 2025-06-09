@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "year": "2025",
+      "iOS": "26",
+      "iPadOS": "26",
+      "macOS": {
+        "number": "macOS 26",
+        "codename": "Tahoe"
+      },
+      "tvOS": "26",
+      "visionOS": "26",
+      "watchOS": "26",
+      "Xcode": "26",
+      "iPhone": "TBA"
+    },
+    {
       "year": "2024",
       "iOS": "18",
       "iPadOS": "18",
